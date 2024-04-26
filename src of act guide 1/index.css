@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(158, 141, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; /* Adjust as needed */
+  margin: 0;
+}
+
+hr {
+  width: 700px;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+li {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+p {
+  text-align: center;
+}
+
+input, button {
+  width: 250px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto; /* Center horizontally */
+  flex-direction: column;
+}
+
+textarea {
+  width: 250px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto; /* Center horizontally */
+  flex-direction: column;
+}
+
+button {
+  width: 100px;
+  margin-top: 10px; /* Add some space between input and button */
+  margin: center;  
+  flex-direction: column;
+}
+.user{
+  margin-left: 31%;
+}
+.btn{
+  margin-left: 43%;
+}
+h3{
+  text-align: center;
+}
